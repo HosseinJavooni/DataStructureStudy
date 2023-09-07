@@ -1,0 +1,9 @@
+in Java core there are two dynamic array implementations (It is not an Array really, but we can see it in that manner)
+1. Vector
+2. ArrayList
+Vector vs ArrayList:
+    similarities:
+        - both are in "java.util" package.
+    differences:
+        - When Vector wants to become larger it's grows 100% but in ArrayList 50%
+        - Vector methods are synchronized but ArrayList method are not! so in multi thread situation it is not the good choice.

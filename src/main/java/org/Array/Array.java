@@ -46,6 +46,6 @@ public class Array {
             if(array[num] == number)
                 positions.append(num).append("  ");
         }
-        return positions.toString().trim();
+        return positions.toString().trim().equals("") ? "-1" : positions.toString().trim();
     }
 }
