@@ -17,4 +17,12 @@ public class Node {
     public Node getNode(){
         return node;
     }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
 }
